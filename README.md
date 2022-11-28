@@ -8,12 +8,13 @@
 部分数据库结构参考：
 
 account | products | cart | order
+----- | ----- | ----- | -----
 wx_openid | product_id | wx_openid | id
 unionid | type | product_id | wx_openid
 nickname | title | count | product_id
 balance | desc | add_time | count
 session_key | tag | selected | price
-user_session | price | - | purchase_time
-- | sold | - | order_id
-- | storage | - | statu
-- | picurl | - | deleted
+user_session | price | / | purchase_time
+/ | sold | / | order_id
+/ | storage | / | statu
+/ | picurl | / | deleted
