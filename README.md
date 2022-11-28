@@ -5,7 +5,7 @@
 
 推荐使用PHPStudy搭建Apache+PHP+MySQL环境，将thinkphp文件夹直接放到PHPStudy安装目录下的WWW文件夹内，设置控制文件为controller.hitaccess，并在thinkphp\Application\Home\Conf\config.php中配置自己的小程序AppID和AppSecret，配置完即可使用。
 
-部分数据库结构参考：
+## 部分数据库结构参考
 
 account | products | cart | order
 ----- | ----- | ----- | -----
